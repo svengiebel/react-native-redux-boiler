@@ -5,4 +5,4 @@ const {
   AppRegistry
 } = React
 
-AppRegistry.registerComponent('reactNativeReduxBoiler', () => Root)
+AppRegistry.registerComponent('ReactNativeReduxBoiler', () => Root)
