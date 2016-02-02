@@ -893,14 +893,14 @@ GLOBAL.document.createElement = null;}
 
 GLOBAL.MutationObserver = undefined;})(
 this);
-__d('soundreduxNative/index.android.js',function(global, require, module, exports) {  function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}var _reactNative=require('react-native/Libraries/react-native/react-native.js');var _reactNative2=_interopRequireDefault(_reactNative);var _srcRoot=require(
-'soundreduxNative/src/root.js');var _srcRoot2=_interopRequireDefault(_srcRoot);var 
+__d('ReactNativeReduxBoiler/index.android.js',function(global, require, module, exports) {  function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}var _reactNative=require('react-native/Libraries/react-native/react-native.js');var _reactNative2=_interopRequireDefault(_reactNative);var _srcRoot=require(
+'ReactNativeReduxBoiler/src/root.js');var _srcRoot2=_interopRequireDefault(_srcRoot);var 
 
 
 AppRegistry=_reactNative2.default.AppRegistry;
 
 
-AppRegistry.registerComponent('soundreduxNative',function(){return _srcRoot2.default;});
+AppRegistry.registerComponent('ReactNativeReduxBoiler',function(){return _srcRoot2.default;});
 });
 __d('react-native/Libraries/react-native/react-native.js',function(global, require, module, exports) {  'use strict';
 
@@ -52616,11 +52616,11 @@ Object.keys(componentOrElement));}
 
 module.exports = findDOMNode;
 });
-__d('soundreduxNative/src/root.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _reactNative=require('react-native/Libraries/react-native/react-native.js');var _reactNative2=_interopRequireDefault(_reactNative);var _reactReduxNative=require(
+__d('ReactNativeReduxBoiler/src/root.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _reactNative=require('react-native/Libraries/react-native/react-native.js');var _reactNative2=_interopRequireDefault(_reactNative);var _reactReduxNative=require(
 'react-redux/native.js');var _storeConfigureStore=require(
-'soundreduxNative/src/store/configure-store.js');var _storeConfigureStore2=_interopRequireDefault(_storeConfigureStore);var _containersApp=require(
+'ReactNativeReduxBoiler/src/store/configure-store.js');var _storeConfigureStore2=_interopRequireDefault(_storeConfigureStore);var _containersApp=require(
 
-'soundreduxNative/src/containers/app.js');var _containersApp2=_interopRequireDefault(_containersApp);
+'ReactNativeReduxBoiler/src/containers/app.js');var _containersApp2=_interopRequireDefault(_containersApp);
 
 var store=(0,_storeConfigureStore2.default)();var 
 
@@ -53787,13 +53787,13 @@ throw error;}};
 
 module.exports = invariant;
 });
-__d('soundreduxNative/src/store/configure-store.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});exports.default = 
+__d('ReactNativeReduxBoiler/src/store/configure-store.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});exports.default = 
 
 
 
 
 
-configureStore;function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}var _redux=require('redux/lib/index.js');var _reduxThunk=require('redux-thunk/lib/index.js');var _reduxThunk2=_interopRequireDefault(_reduxThunk);var _reducersIndex=require('soundreduxNative/src/reducers/index.js');var _reducersIndex2=_interopRequireDefault(_reducersIndex);var createStoreWithMiddleware=(0,_redux.applyMiddleware)(_reduxThunk2.default)(_redux.createStore);function configureStore(initialState){
+configureStore;function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}var _redux=require('redux/lib/index.js');var _reduxThunk=require('redux-thunk/lib/index.js');var _reduxThunk2=_interopRequireDefault(_reduxThunk);var _reducersIndex=require('ReactNativeReduxBoiler/src/reducers/index.js');var _reducersIndex2=_interopRequireDefault(_reducersIndex);var createStoreWithMiddleware=(0,_redux.applyMiddleware)(_reduxThunk2.default)(_redux.createStore);function configureStore(initialState){
 var store=createStoreWithMiddleware(_reducersIndex2.default,initialState);
 
 return store;}module.exports = exports.default;
@@ -53816,11 +53816,11 @@ return typeof action === 'function'?action(dispatch,getState):next(action);};};}
 
 module.exports = exports['default'];
 });
-__d('soundreduxNative/src/reducers/index.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}var _redux=require('redux/lib/index.js');var _reducersEntities=require(
-'soundreduxNative/src/reducers/entities.js');var _reducersEntities2=_interopRequireDefault(_reducersEntities);var _reducersPlayer=require(
-'soundreduxNative/src/reducers/player.js');var _reducersPlayer2=_interopRequireDefault(_reducersPlayer);var _reducersPlaylists=require(
-'soundreduxNative/src/reducers/playlists.js');var _reducersPlaylists2=_interopRequireDefault(_reducersPlaylists);var _reducersPlaylist=require(
-'soundreduxNative/src/reducers/playlist.js');var _reducersPlaylist2=_interopRequireDefault(_reducersPlaylist);
+__d('ReactNativeReduxBoiler/src/reducers/index.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}var _redux=require('redux/lib/index.js');var _reducersEntities=require(
+'ReactNativeReduxBoiler/src/reducers/entities.js');var _reducersEntities2=_interopRequireDefault(_reducersEntities);var _reducersPlayer=require(
+'ReactNativeReduxBoiler/src/reducers/player.js');var _reducersPlayer2=_interopRequireDefault(_reducersPlayer);var _reducersPlaylists=require(
+'ReactNativeReduxBoiler/src/reducers/playlists.js');var _reducersPlaylists2=_interopRequireDefault(_reducersPlaylists);var _reducersPlaylist=require(
+'ReactNativeReduxBoiler/src/reducers/playlist.js');var _reducersPlaylist2=_interopRequireDefault(_reducersPlaylist);
 
 var rootReducer=(0,_redux.combineReducers)({
 entities:_reducersEntities2.default,
@@ -53831,7 +53831,7 @@ playlist:_reducersPlaylist2.default});exports.default =
 
 rootReducer;module.exports = exports.default;
 });
-__d('soundreduxNative/src/reducers/entities.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});exports.default = 
+__d('ReactNativeReduxBoiler/src/reducers/entities.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});exports.default = 
 
 
 
@@ -55011,9 +55011,9 @@ return func.apply(this,otherArgs);};}
 
 module.exports = restParam;
 });
-__d('soundreduxNative/src/reducers/player.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});exports.default = 
+__d('ReactNativeReduxBoiler/src/reducers/player.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});exports.default = 
 
-player;function _interopRequireWildcard(obj){if(obj && obj.__esModule){return obj;}else {var newObj={};if(obj != null){for(var key in obj) {if(Object.prototype.hasOwnProperty.call(obj,key))newObj[key] = obj[key];}}newObj['default'] = obj;return newObj;}}var _constantsActionTypes=require('soundreduxNative/src/constants/ActionTypes.js');var types=_interopRequireWildcard(_constantsActionTypes);function player(state,
+player;function _interopRequireWildcard(obj){if(obj && obj.__esModule){return obj;}else {var newObj={};if(obj != null){for(var key in obj) {if(Object.prototype.hasOwnProperty.call(obj,key))newObj[key] = obj[key];}}newObj['default'] = obj;return newObj;}}var _constantsActionTypes=require('ReactNativeReduxBoiler/src/constants/ActionTypes.js');var types=_interopRequireWildcard(_constantsActionTypes);function player(state,
 
 
 
@@ -55043,7 +55043,7 @@ status:action.status});
 default:
 return state;}}module.exports = exports.default;
 });
-__d('soundreduxNative/src/constants/ActionTypes.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var CHANGE_ACTIVE_PLAYLIST='CHANGE_ACTIVE_PLAYLIST';exports.CHANGE_ACTIVE_PLAYLIST = CHANGE_ACTIVE_PLAYLIST;
+__d('ReactNativeReduxBoiler/src/constants/ActionTypes.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var CHANGE_ACTIVE_PLAYLIST='CHANGE_ACTIVE_PLAYLIST';exports.CHANGE_ACTIVE_PLAYLIST = CHANGE_ACTIVE_PLAYLIST;
 var CHANGE_ACTIVE_SONG_ID='CHANGE_ACTIVE_SONG_ID';exports.CHANGE_ACTIVE_SONG_ID = CHANGE_ACTIVE_SONG_ID;
 var CHANGE_ACTIVE_USER_ID='CHANGE_ACTIVE_USER_ID';exports.CHANGE_ACTIVE_USER_ID = CHANGE_ACTIVE_USER_ID;
 var CHANGE_CURRENT_TIME='CHANGE_CURRENT_TIME';exports.CHANGE_CURRENT_TIME = CHANGE_CURRENT_TIME;
@@ -55064,7 +55064,7 @@ var REQUEST_USER='REQUEST_USER';exports.REQUEST_USER = REQUEST_USER;
 var CHANGE_PLAYLIST='CHANGE_PLAYLIST';exports.CHANGE_PLAYLIST = CHANGE_PLAYLIST;
 var CHANGE_PLAYER_STATUS='CHANGE_PLAYER_STATUS';exports.CHANGE_PLAYER_STATUS = CHANGE_PLAYER_STATUS;
 });
-__d('soundreduxNative/src/reducers/playlists.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});exports.default = 
+__d('ReactNativeReduxBoiler/src/reducers/playlists.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});exports.default = 
 
 
 
@@ -55091,7 +55091,7 @@ __d('soundreduxNative/src/reducers/playlists.js',function(global, require, modul
 
 
 
-playlists;function _interopRequireWildcard(obj){if(obj && obj.__esModule){return obj;}else {var newObj={};if(obj != null){for(var key in obj) {if(Object.prototype.hasOwnProperty.call(obj,key))newObj[key] = obj[key];}}newObj['default'] = obj;return newObj;}}function _toConsumableArray(arr){if(Array.isArray(arr)){for(var i=0,arr2=Array(arr.length);i < arr.length;i++) arr2[i] = arr[i];return arr2;}else {return Array.from(arr);}}function _defineProperty(obj,key,value){if(key in obj){Object.defineProperty(obj,key,{value:value,enumerable:true,configurable:true,writable:true});}else {obj[key] = value;}return obj;}var _constantsActionTypes=require('soundreduxNative/src/constants/ActionTypes.js');var types=_interopRequireWildcard(_constantsActionTypes);var _utilsSongUtils=require('soundreduxNative/src/utils/SongUtils.js');function playlist(state,action){if(state === undefined)state = {isFetching:false,items:[],nextUrl:false};switch(action.type){case types.RECEIVE_SONGS:return Object.assign({},state,{isFetching:false,items:[].concat(_toConsumableArray(state.items),_toConsumableArray(action.songs)),nextUrl:action.nextUrl});case types.REQUEST_SONGS:return Object.assign({},state,{isFetching:true,nextUrl:null});default:return state;}}function playlists(state,action){if(state === undefined)state = {};
+playlists;function _interopRequireWildcard(obj){if(obj && obj.__esModule){return obj;}else {var newObj={};if(obj != null){for(var key in obj) {if(Object.prototype.hasOwnProperty.call(obj,key))newObj[key] = obj[key];}}newObj['default'] = obj;return newObj;}}function _toConsumableArray(arr){if(Array.isArray(arr)){for(var i=0,arr2=Array(arr.length);i < arr.length;i++) arr2[i] = arr[i];return arr2;}else {return Array.from(arr);}}function _defineProperty(obj,key,value){if(key in obj){Object.defineProperty(obj,key,{value:value,enumerable:true,configurable:true,writable:true});}else {obj[key] = value;}return obj;}var _constantsActionTypes=require('ReactNativeReduxBoiler/src/constants/ActionTypes.js');var types=_interopRequireWildcard(_constantsActionTypes);var _utilsSongUtils=require('ReactNativeReduxBoiler/src/utils/SongUtils.js');function playlist(state,action){if(state === undefined)state = {isFetching:false,items:[],nextUrl:false};switch(action.type){case types.RECEIVE_SONGS:return Object.assign({},state,{isFetching:false,items:[].concat(_toConsumableArray(state.items),_toConsumableArray(action.songs)),nextUrl:action.nextUrl});case types.REQUEST_SONGS:return Object.assign({},state,{isFetching:true,nextUrl:null});default:return state;}}function playlists(state,action){if(state === undefined)state = {};
 switch(action.type){
 case types.RECEIVE_SONGS:
 return Object.assign({},state,_defineProperty({},
@@ -55106,9 +55106,9 @@ action.playlist,playlist(state[action.playlist],action)));
 default:
 return state;}}module.exports = exports.default;
 });
-__d('soundreduxNative/src/utils/SongUtils.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});exports.constructUrl = constructUrl;exports.constructSongCommentsUrl = constructSongCommentsUrl;exports.constructSongUrl = constructSongUrl;exports.constructUserSongsUrl = constructUserSongsUrl;exports.getImageUrl = getImageUrl;function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}var _moment=require('moment/moment.js');var _moment2=_interopRequireDefault(_moment);var _constantsConfig=require(
-'soundreduxNative/src/constants/Config.js');var _constantsSongConstants=require(
-'soundreduxNative/src/constants/SongConstants.js');
+__d('ReactNativeReduxBoiler/src/utils/SongUtils.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});exports.constructUrl = constructUrl;exports.constructSongCommentsUrl = constructSongCommentsUrl;exports.constructSongUrl = constructSongUrl;exports.constructUserSongsUrl = constructUserSongsUrl;exports.getImageUrl = getImageUrl;function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}var _moment=require('moment/moment.js');var _moment2=_interopRequireDefault(_moment);var _constantsConfig=require(
+'ReactNativeReduxBoiler/src/constants/Config.js');var _constantsSongConstants=require(
+'ReactNativeReduxBoiler/src/constants/SongConstants.js');
 
 function constructUrl(category){
 var catArr=category.split(' - ');
@@ -58347,9 +58347,9 @@ var _moment=utils_hooks__hooks;
 
 return _moment;});
 });
-__d('soundreduxNative/src/constants/Config.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var CLIENT_ID='89ae6050d2fb321d2ac9be2e2d822596';exports.CLIENT_ID = CLIENT_ID;
+__d('ReactNativeReduxBoiler/src/constants/Config.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var CLIENT_ID='89ae6050d2fb321d2ac9be2e2d822596';exports.CLIENT_ID = CLIENT_ID;
 });
-__d('soundreduxNative/src/constants/SongConstants.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var CHANGE_TYPES={
+__d('ReactNativeReduxBoiler/src/constants/SongConstants.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var CHANGE_TYPES={
 NEXT:'next',
 PLAY:'play',
 SHUFFLE:'shuffle'};exports.CHANGE_TYPES = CHANGE_TYPES;
@@ -58377,9 +58377,9 @@ result[genre] = 1;});
 
 return result;})();exports.GENRES_MAP = GENRES_MAP;
 });
-__d('soundreduxNative/src/reducers/playlist.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});exports.default = 
+__d('ReactNativeReduxBoiler/src/reducers/playlist.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});exports.default = 
 
-playlist;function _interopRequireWildcard(obj){if(obj && obj.__esModule){return obj;}else {var newObj={};if(obj != null){for(var key in obj) {if(Object.prototype.hasOwnProperty.call(obj,key))newObj[key] = obj[key];}}newObj['default'] = obj;return newObj;}}var _constantsActionTypes=require('soundreduxNative/src/constants/ActionTypes.js');var types=_interopRequireWildcard(_constantsActionTypes);function playlist(state,action){if(state === undefined)state = 'house';
+playlist;function _interopRequireWildcard(obj){if(obj && obj.__esModule){return obj;}else {var newObj={};if(obj != null){for(var key in obj) {if(Object.prototype.hasOwnProperty.call(obj,key))newObj[key] = obj[key];}}newObj['default'] = obj;return newObj;}}var _constantsActionTypes=require('ReactNativeReduxBoiler/src/constants/ActionTypes.js');var types=_interopRequireWildcard(_constantsActionTypes);function playlist(state,action){if(state === undefined)state = 'house';
 switch(action.type){
 case types.CHANGE_PLAYLIST:
 return action.playlist;
@@ -58387,7 +58387,7 @@ return action.playlist;
 default:
 return state;}}module.exports = exports.default;
 });
-__d('soundreduxNative/src/containers/app.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _reactNative=require('react-native/Libraries/react-native/react-native.js');var _reactNative2=_interopRequireDefault(_reactNative);var _MainContainer=require(
+__d('ReactNativeReduxBoiler/src/containers/app.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _reactNative=require('react-native/Libraries/react-native/react-native.js');var _reactNative2=_interopRequireDefault(_reactNative);var _MainContainer=require(
 
 
 
@@ -58395,7 +58395,7 @@ __d('soundreduxNative/src/containers/app.js',function(global, require, module, e
 
 
 
-'soundreduxNative/src/containers/MainContainer.js');var _MainContainer2=_interopRequireDefault(_MainContainer);var StyleSheet=_reactNative2.default.StyleSheet;var Navigator=_reactNative2.default.Navigator;var PropTypes=_reactNative2.default.PropTypes;var 
+'ReactNativeReduxBoiler/src/containers/MainContainer.js');var _MainContainer2=_interopRequireDefault(_MainContainer);var StyleSheet=_reactNative2.default.StyleSheet;var Navigator=_reactNative2.default.Navigator;var PropTypes=_reactNative2.default.PropTypes;var 
 
 App=(function(_React$Component){_inherits(App,_React$Component);
 function App(props){_classCallCheck(this,App);
@@ -58442,7 +58442,7 @@ flex:1}});exports.default =
 
 App;module.exports = exports.default;
 });
-__d('soundreduxNative/src/containers/MainContainer.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _reactNative=require('react-native/Libraries/react-native/react-native.js');var _reactNative2=_interopRequireDefault(_reactNative);var _reactReduxNative=require(
+__d('ReactNativeReduxBoiler/src/containers/MainContainer.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _reactNative=require('react-native/Libraries/react-native/react-native.js');var _reactNative2=_interopRequireDefault(_reactNative);var _reactReduxNative=require(
 
 
 
@@ -58450,7 +58450,7 @@ __d('soundreduxNative/src/containers/MainContainer.js',function(global, require,
 
 'react-redux/native.js');var _componentsMain=require(
 
-'soundreduxNative/src/components/Main.js');var _componentsMain2=_interopRequireDefault(_componentsMain);var View=_reactNative2.default.View;var Component=_reactNative2.default.Component;var 
+'ReactNativeReduxBoiler/src/components/Main.js');var _componentsMain2=_interopRequireDefault(_componentsMain);var View=_reactNative2.default.View;var Component=_reactNative2.default.Component;var 
 
 MainContainer=(function(_Component){_inherits(MainContainer,_Component);function MainContainer(){_classCallCheck(this,MainContainer);_get(Object.getPrototypeOf(MainContainer.prototype),'constructor',this).apply(this,arguments);}_createClass(MainContainer,[{key:'render',value:
 function render(){
@@ -58476,7 +58476,7 @@ users:entities.users};}exports.default =
 
 (0,_reactReduxNative.connect)(mapStateToProps)(MainContainer);module.exports = exports.default;
 });
-__d('soundreduxNative/src/components/Main.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _extends=Object.assign || function(target){for(var i=1;i < arguments.length;i++) {var source=arguments[i];for(var key in source) {if(Object.prototype.hasOwnProperty.call(source,key)){target[key] = source[key];}}}return target;};var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _reactReduxNative=require(
+__d('ReactNativeReduxBoiler/src/components/Main.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _extends=Object.assign || function(target){for(var i=1;i < arguments.length;i++) {var source=arguments[i];for(var key in source) {if(Object.prototype.hasOwnProperty.call(source,key)){target[key] = source[key];}}}return target;};var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _reactReduxNative=require(
 
 
 
@@ -58488,15 +58488,15 @@ __d('soundreduxNative/src/components/Main.js',function(global, require, module, 
 
 
 
-'soundreduxNative/src/actions/playlists.js');var _utilsRouteUtils=require(
-'soundreduxNative/src/utils/RouteUtils.js');var _containersPlayerContainer=require(
+'ReactNativeReduxBoiler/src/actions/playlists.js');var _utilsRouteUtils=require(
+'ReactNativeReduxBoiler/src/utils/RouteUtils.js');var _containersPlayerContainer=require(
 
-'soundreduxNative/src/containers/PlayerContainer.js');var _containersPlayerContainer2=_interopRequireDefault(_containersPlayerContainer);var _containersSearchContainer=require(
-'soundreduxNative/src/containers/SearchContainer.js');var _containersSearchContainer2=_interopRequireDefault(_containersSearchContainer);var _Songs=require(
-'soundreduxNative/src/components/Songs.js');var _Songs2=_interopRequireDefault(_Songs);var React=require('react-native/Libraries/react-native/react-native.js');var StyleSheet=React.StyleSheet;var View=React.View;var Dimensions=React.Dimensions;var PropTypes=React.PropTypes;var ToolbarAndroid=React.ToolbarAndroid;var deviceWidth=Dimensions.get('window').width;
+'ReactNativeReduxBoiler/src/containers/PlayerContainer.js');var _containersPlayerContainer2=_interopRequireDefault(_containersPlayerContainer);var _containersSearchContainer=require(
+'ReactNativeReduxBoiler/src/containers/SearchContainer.js');var _containersSearchContainer2=_interopRequireDefault(_containersSearchContainer);var _Songs=require(
+'ReactNativeReduxBoiler/src/components/Songs.js');var _Songs2=_interopRequireDefault(_Songs);var React=require('react-native/Libraries/react-native/react-native.js');var StyleSheet=React.StyleSheet;var View=React.View;var Dimensions=React.Dimensions;var PropTypes=React.PropTypes;var ToolbarAndroid=React.ToolbarAndroid;var deviceWidth=Dimensions.get('window').width;
 
 var toolbarActions=[
-{title:'Search',icon:require('soundreduxNative/assets/search100.png'),show:'always'}];var 
+{title:'Search',icon:require('ReactNativeReduxBoiler/assets/search100.png'),show:'always'}];var 
 
 
 Main=(function(_React$Component){_inherits(Main,_React$Component);
@@ -58574,10 +58574,10 @@ playlists:PropTypes.object.isRequired};exports.default =
 
 Main;module.exports = exports.default;
 });
-__d('soundreduxNative/src/actions/playlists.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});exports.fetchSongsIfNeeded = fetchSongsIfNeeded;exports.changePlaylist = changePlaylist;function _interopRequireWildcard(obj){if(obj && obj.__esModule){return obj;}else {var newObj={};if(obj != null){for(var key in obj) {if(Object.prototype.hasOwnProperty.call(obj,key))newObj[key] = obj[key];}}newObj['default'] = obj;return newObj;}}var _normalizr=require('normalizr/lib/index.js');var _constantsActionTypes=require(
-'soundreduxNative/src/constants/ActionTypes.js');var types=_interopRequireWildcard(_constantsActionTypes);var _constantsSchemas=require(
-'soundreduxNative/src/constants/Schemas.js');var _utilsSongUtils=require(
-'soundreduxNative/src/utils/SongUtils.js');
+__d('ReactNativeReduxBoiler/src/actions/playlists.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});exports.fetchSongsIfNeeded = fetchSongsIfNeeded;exports.changePlaylist = changePlaylist;function _interopRequireWildcard(obj){if(obj && obj.__esModule){return obj;}else {var newObj={};if(obj != null){for(var key in obj) {if(Object.prototype.hasOwnProperty.call(obj,key))newObj[key] = obj[key];}}newObj['default'] = obj;return newObj;}}var _normalizr=require('normalizr/lib/index.js');var _constantsActionTypes=require(
+'ReactNativeReduxBoiler/src/constants/ActionTypes.js');var types=_interopRequireWildcard(_constantsActionTypes);var _constantsSchemas=require(
+'ReactNativeReduxBoiler/src/constants/Schemas.js');var _utilsSongUtils=require(
+'ReactNativeReduxBoiler/src/utils/SongUtils.js');
 
 function fetchSongs(url,playlist){
 return function(dispatch,getState){
@@ -59810,7 +59810,7 @@ return baseFor(object,iteratee,keys);}
 
 module.exports = baseForOwn;
 });
-__d('soundreduxNative/src/constants/Schemas.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _normalizr=require('normalizr/lib/index.js');
+__d('ReactNativeReduxBoiler/src/constants/Schemas.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _normalizr=require('normalizr/lib/index.js');
 
 var song=new _normalizr.Schema('songs');
 var user=new _normalizr.Schema('users');
@@ -59822,7 +59822,7 @@ user:user});
 var songSchema=song;exports.songSchema = songSchema;
 var userSchema=user;exports.userSchema = userSchema;
 });
-__d('soundreduxNative/src/utils/RouteUtils.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});exports.constructUrl = constructUrl;exports.parseUrl = parseUrl;function constructUrl(route){var 
+__d('ReactNativeReduxBoiler/src/utils/RouteUtils.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});exports.constructUrl = constructUrl;exports.parseUrl = parseUrl;function constructUrl(route){var 
 path=route.path;var query=route.query;
 var result=path.join('/');
 var queryArr=[];
@@ -59859,7 +59859,7 @@ query[key] = parseInt(value);}});}
 
 return {path:path,query:query};}
 });
-__d('soundreduxNative/src/containers/PlayerContainer.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _reactNative=require('react-native/Libraries/react-native/react-native.js');var _reactNative2=_interopRequireDefault(_reactNative);var _reactReduxNative=require(
+__d('ReactNativeReduxBoiler/src/containers/PlayerContainer.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _reactNative=require('react-native/Libraries/react-native/react-native.js');var _reactNative2=_interopRequireDefault(_reactNative);var _reactReduxNative=require(
 
 
 
@@ -59867,7 +59867,7 @@ __d('soundreduxNative/src/containers/PlayerContainer.js',function(global, requir
 
 'react-redux/native.js');var _componentsPlayer=require(
 
-'soundreduxNative/src/components/Player.js');var _componentsPlayer2=_interopRequireDefault(_componentsPlayer);var View=_reactNative2.default.View;var Component=_reactNative2.default.Component;var 
+'ReactNativeReduxBoiler/src/components/Player.js');var _componentsPlayer2=_interopRequireDefault(_componentsPlayer);var View=_reactNative2.default.View;var Component=_reactNative2.default.Component;var 
 
 PlayerContainer=(function(_Component){_inherits(PlayerContainer,_Component);function PlayerContainer(){_classCallCheck(this,PlayerContainer);_get(Object.getPrototypeOf(PlayerContainer.prototype),'constructor',this).apply(this,arguments);}_createClass(PlayerContainer,[{key:'render',value:
 function render(){var 
@@ -59897,7 +59897,7 @@ users:entities.users};}exports.default =
 
 (0,_reactReduxNative.connect)(mapStateToProps)(PlayerContainer);module.exports = exports.default;
 });
-__d('soundreduxNative/src/components/Player.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _InteractionManager=require(
+__d('ReactNativeReduxBoiler/src/components/Player.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _InteractionManager=require(
 
 
 
@@ -59912,11 +59912,11 @@ __d('soundreduxNative/src/components/Player.js',function(global, require, module
 
 'InteractionManager');var _InteractionManager2=_interopRequireDefault(_InteractionManager);var _containersSongContainer=require(
 
-'soundreduxNative/src/containers/SongContainer.js');var _containersSongContainer2=_interopRequireDefault(_containersSongContainer);var _reactNativeVectorIconsMaterialIcons=require(
+'ReactNativeReduxBoiler/src/containers/SongContainer.js');var _containersSongContainer2=_interopRequireDefault(_containersSongContainer);var _reactNativeVectorIconsMaterialIcons=require(
 'MaterialIcons');var _reactNativeVectorIconsMaterialIcons2=_interopRequireDefault(_reactNativeVectorIconsMaterialIcons);var _utilsFormatUtils=require(
-'soundreduxNative/src/utils/FormatUtils.js');var _actionsPlayer=require(
-'soundreduxNative/src/actions/player.js');var _constantsSongConstants=require(
-'soundreduxNative/src/constants/SongConstants.js');var React=require('react-native/Libraries/react-native/react-native.js');var StyleSheet=React.StyleSheet;var View=React.View;var Text=React.Text;var Dimensions=React.Dimensions;var Image=React.Image;var TouchableOpacity=React.TouchableOpacity;var DeviceEventEmitter=React.DeviceEventEmitter;var Component=React.Component;var RCTPlayer=require('react-native-player/index.js');
+'ReactNativeReduxBoiler/src/utils/FormatUtils.js');var _actionsPlayer=require(
+'ReactNativeReduxBoiler/src/actions/player.js');var _constantsSongConstants=require(
+'ReactNativeReduxBoiler/src/constants/SongConstants.js');var React=require('react-native/Libraries/react-native/react-native.js');var StyleSheet=React.StyleSheet;var View=React.View;var Text=React.Text;var Dimensions=React.Dimensions;var Image=React.Image;var TouchableOpacity=React.TouchableOpacity;var DeviceEventEmitter=React.DeviceEventEmitter;var Component=React.Component;var RCTPlayer=require('react-native-player/index.js');
 var deviceWidth=Dimensions.get('window').width;var 
 
 Player=(function(_Component){_inherits(Player,_Component);
@@ -60087,7 +60087,7 @@ fontSize:12}});exports.default =
 
 Player;module.exports = exports.default;
 });
-__d('soundreduxNative/src/containers/SongContainer.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _reactNative=require('react-native/Libraries/react-native/react-native.js');var _reactNative2=_interopRequireDefault(_reactNative);var _reactReduxNative=require(
+__d('ReactNativeReduxBoiler/src/containers/SongContainer.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _reactNative=require('react-native/Libraries/react-native/react-native.js');var _reactNative2=_interopRequireDefault(_reactNative);var _reactReduxNative=require(
 
 
 
@@ -60095,7 +60095,7 @@ __d('soundreduxNative/src/containers/SongContainer.js',function(global, require,
 
 'react-redux/native.js');var _componentsSong=require(
 
-'soundreduxNative/src/components/Song.js');var _componentsSong2=_interopRequireDefault(_componentsSong);var View=_reactNative2.default.View;var Component=_reactNative2.default.Component;var 
+'ReactNativeReduxBoiler/src/components/Song.js');var _componentsSong2=_interopRequireDefault(_componentsSong);var View=_reactNative2.default.View;var Component=_reactNative2.default.Component;var 
 
 SongContainer=(function(_Component){_inherits(SongContainer,_Component);function SongContainer(){_classCallCheck(this,SongContainer);_get(Object.getPrototypeOf(SongContainer.prototype),'constructor',this).apply(this,arguments);}_createClass(SongContainer,[{key:'render',value:
 function render(){
@@ -60119,7 +60119,7 @@ users:entities.users};}exports.default =
 
 (0,_reactReduxNative.connect)(mapStateToProps)(SongContainer);module.exports = exports.default;
 });
-__d('soundreduxNative/src/components/Song.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _reactNative=require('react-native/Libraries/react-native/react-native.js');var _reactNative2=_interopRequireDefault(_reactNative);var _reactNativePlayer=require(
+__d('ReactNativeReduxBoiler/src/components/Song.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _reactNative=require('react-native/Libraries/react-native/react-native.js');var _reactNative2=_interopRequireDefault(_reactNative);var _reactNativePlayer=require(
 
 
 
@@ -60134,9 +60134,9 @@ __d('soundreduxNative/src/components/Song.js',function(global, require, module, 
 
 'MaterialIcons');var _reactNativeVectorIconsMaterialIcons2=_interopRequireDefault(_reactNativeVectorIconsMaterialIcons);var _actionsPlayer=require(
 
-'soundreduxNative/src/actions/player.js');var _constantsSongConstants=require(
-'soundreduxNative/src/constants/SongConstants.js');var _utilsFormatUtils=require(
-'soundreduxNative/src/utils/FormatUtils.js');var StyleSheet=_reactNative2.default.StyleSheet;var PropTypes=_reactNative2.default.PropTypes;var View=_reactNative2.default.View;var Text=_reactNative2.default.Text;var Dimensions=_reactNative2.default.Dimensions;var Image=_reactNative2.default.Image;var ListView=_reactNative2.default.ListView;var TouchableOpacity=_reactNative2.default.TouchableOpacity;
+'ReactNativeReduxBoiler/src/actions/player.js');var _constantsSongConstants=require(
+'ReactNativeReduxBoiler/src/constants/SongConstants.js');var _utilsFormatUtils=require(
+'ReactNativeReduxBoiler/src/utils/FormatUtils.js');var StyleSheet=_reactNative2.default.StyleSheet;var PropTypes=_reactNative2.default.PropTypes;var View=_reactNative2.default.View;var Text=_reactNative2.default.Text;var Dimensions=_reactNative2.default.Dimensions;var Image=_reactNative2.default.Image;var ListView=_reactNative2.default.ListView;var TouchableOpacity=_reactNative2.default.TouchableOpacity;
 var deviceWidth=Dimensions.get('window').width;
 var deviceHeight=Dimensions.get('window').height;var 
 
@@ -61839,8 +61839,8 @@ rotation:PropTypes.number}};
 
 module.exports = requireNativeComponent('RNTypefaceTextView',iface);
 });
-__d('soundreduxNative/src/actions/player.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});exports.changePlayerStatus = changePlayerStatus;exports.changeCurrentTime = changeCurrentTime;exports.changePlayingSong = changePlayingSong;exports.changeSelectedPlaylists = changeSelectedPlaylists;exports.changeSong = changeSong;exports.playSong = playSong;function _interopRequireWildcard(obj){if(obj && obj.__esModule){return obj;}else {var newObj={};if(obj != null){for(var key in obj) {if(Object.prototype.hasOwnProperty.call(obj,key))newObj[key] = obj[key];}}newObj['default'] = obj;return newObj;}}var _constantsActionTypes=require('soundreduxNative/src/constants/ActionTypes.js');var types=_interopRequireWildcard(_constantsActionTypes);var _constantsSongConstants=require(
-'soundreduxNative/src/constants/SongConstants.js');
+__d('ReactNativeReduxBoiler/src/actions/player.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});exports.changePlayerStatus = changePlayerStatus;exports.changeCurrentTime = changeCurrentTime;exports.changePlayingSong = changePlayingSong;exports.changeSelectedPlaylists = changeSelectedPlaylists;exports.changeSong = changeSong;exports.playSong = playSong;function _interopRequireWildcard(obj){if(obj && obj.__esModule){return obj;}else {var newObj={};if(obj != null){for(var key in obj) {if(Object.prototype.hasOwnProperty.call(obj,key))newObj[key] = obj[key];}}newObj['default'] = obj;return newObj;}}var _constantsActionTypes=require('ReactNativeReduxBoiler/src/constants/ActionTypes.js');var types=_interopRequireWildcard(_constantsActionTypes);var _constantsSongConstants=require(
+'ReactNativeReduxBoiler/src/constants/SongConstants.js');
 
 function changePlayerStatus(status){
 return {
@@ -61911,7 +61911,7 @@ dispatch(changeSelectedPlaylists(selectedPlaylists,playlist));}
 
 dispatch(changePlayingSong(songIndex));};}
 });
-__d('soundreduxNative/src/utils/FormatUtils.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});exports.addCommas = addCommas;exports.formatSongTitle = formatSongTitle;exports.formatSeconds = formatSeconds;exports.formatStreamUrl = formatStreamUrl;exports.getLargeImage = getLargeImage;exports.getSocialIcon = getSocialIcon;var _constantsConfig=require('soundreduxNative/src/constants/Config.js');
+__d('ReactNativeReduxBoiler/src/utils/FormatUtils.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});exports.addCommas = addCommas;exports.formatSongTitle = formatSongTitle;exports.formatSeconds = formatSeconds;exports.formatStreamUrl = formatStreamUrl;exports.getLargeImage = getLargeImage;exports.getSocialIcon = getSocialIcon;var _constantsConfig=require('ReactNativeReduxBoiler/src/constants/Config.js');
 
 function addCommas(i){
 if(i === null || i === undefined){
@@ -61978,7 +61978,7 @@ s = '0' + s;}
 
 return s;}
 });
-__d('soundreduxNative/src/containers/SearchContainer.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _reactNative=require('react-native/Libraries/react-native/react-native.js');var _reactNative2=_interopRequireDefault(_reactNative);var _reactReduxNative=require(
+__d('ReactNativeReduxBoiler/src/containers/SearchContainer.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _reactNative=require('react-native/Libraries/react-native/react-native.js');var _reactNative2=_interopRequireDefault(_reactNative);var _reactReduxNative=require(
 
 
 
@@ -61986,7 +61986,7 @@ __d('soundreduxNative/src/containers/SearchContainer.js',function(global, requir
 
 'react-redux/native.js');var _componentsSearch=require(
 
-'soundreduxNative/src/components/Search.js');var _componentsSearch2=_interopRequireDefault(_componentsSearch);var View=_reactNative2.default.View;var Component=_reactNative2.default.Component;var 
+'ReactNativeReduxBoiler/src/components/Search.js');var _componentsSearch2=_interopRequireDefault(_componentsSearch);var View=_reactNative2.default.View;var Component=_reactNative2.default.Component;var 
 
 SearchContainer=(function(_Component){_inherits(SearchContainer,_Component);function SearchContainer(){_classCallCheck(this,SearchContainer);_get(Object.getPrototypeOf(SearchContainer.prototype),'constructor',this).apply(this,arguments);}_createClass(SearchContainer,[{key:'render',value:
 function render(){
@@ -62012,7 +62012,7 @@ users:entities.users};}exports.default =
 
 (0,_reactReduxNative.connect)(mapStateToProps)(SearchContainer);module.exports = exports.default;
 });
-__d('soundreduxNative/src/components/Search.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _extends=Object.assign || function(target){for(var i=1;i < arguments.length;i++) {var source=arguments[i];for(var key in source) {if(Object.prototype.hasOwnProperty.call(source,key)){target[key] = source[key];}}}return target;};var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _containersPlayerContainer=require(
+__d('ReactNativeReduxBoiler/src/components/Search.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _extends=Object.assign || function(target){for(var i=1;i < arguments.length;i++) {var source=arguments[i];for(var key in source) {if(Object.prototype.hasOwnProperty.call(source,key)){target[key] = source[key];}}}return target;};var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _containersPlayerContainer=require(
 
 
 
@@ -62022,10 +62022,10 @@ __d('soundreduxNative/src/components/Search.js',function(global, require, module
 
 
 
-'soundreduxNative/src/containers/PlayerContainer.js');var _containersPlayerContainer2=_interopRequireDefault(_containersPlayerContainer);var _Songs=require(
-'soundreduxNative/src/components/Songs.js');var _Songs2=_interopRequireDefault(_Songs);var _actionsPlaylists=require(
+'ReactNativeReduxBoiler/src/containers/PlayerContainer.js');var _containersPlayerContainer2=_interopRequireDefault(_containersPlayerContainer);var _Songs=require(
+'ReactNativeReduxBoiler/src/components/Songs.js');var _Songs2=_interopRequireDefault(_Songs);var _actionsPlaylists=require(
 
-'soundreduxNative/src/actions/playlists.js');var _reactNativeVectorIconsMaterialIcons=require(
+'ReactNativeReduxBoiler/src/actions/playlists.js');var _reactNativeVectorIconsMaterialIcons=require(
 'MaterialIcons');var _reactNativeVectorIconsMaterialIcons2=_interopRequireDefault(_reactNativeVectorIconsMaterialIcons);var React=require('react-native/Libraries/react-native/react-native.js');var StyleSheet=React.StyleSheet;var View=React.View;var Text=React.Text;var Dimensions=React.Dimensions;var TouchableOpacity=React.TouchableOpacity;var TextInput=React.TextInput;
 var deviceWidth=Dimensions.get('window').width;var 
 
@@ -62131,7 +62131,7 @@ lineHeight:50}});exports.default =
 
 Search;module.exports = exports.default;
 });
-__d('soundreduxNative/src/components/Songs.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _reactNativeVectorIconsMaterialIcons=require(
+__d('ReactNativeReduxBoiler/src/components/Songs.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _interopRequireDefault(obj){return obj && obj.__esModule?obj:{'default':obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _reactNativeVectorIconsMaterialIcons=require(
 
 
 
@@ -62149,10 +62149,10 @@ __d('soundreduxNative/src/components/Songs.js',function(global, require, module,
 
 
 
-'soundreduxNative/src/components/Toolbar.js');var _Toolbar2=_interopRequireDefault(_Toolbar);var _actionsPlayer=require(
-'soundreduxNative/src/actions/player.js');var _actionsPlaylists=require(
-'soundreduxNative/src/actions/playlists.js');var _containersSongContainer=require(
-'soundreduxNative/src/containers/SongContainer.js');var _containersSongContainer2=_interopRequireDefault(_containersSongContainer);var React=require('react-native/Libraries/react-native/react-native.js');var StyleSheet=React.StyleSheet;var View=React.View;var Text=React.Text;var Dimensions=React.Dimensions;var Image=React.Image;var ListView=React.ListView;var TouchableOpacity=React.TouchableOpacity;var Component=React.Component;var deviceWidth=Dimensions.get('window').width;var deviceHeight=Dimensions.get('window').height;var 
+'ReactNativeReduxBoiler/src/components/Toolbar.js');var _Toolbar2=_interopRequireDefault(_Toolbar);var _actionsPlayer=require(
+'ReactNativeReduxBoiler/src/actions/player.js');var _actionsPlaylists=require(
+'ReactNativeReduxBoiler/src/actions/playlists.js');var _containersSongContainer=require(
+'ReactNativeReduxBoiler/src/containers/SongContainer.js');var _containersSongContainer2=_interopRequireDefault(_containersSongContainer);var React=require('react-native/Libraries/react-native/react-native.js');var StyleSheet=React.StyleSheet;var View=React.View;var Text=React.Text;var Dimensions=React.Dimensions;var Image=React.Image;var ListView=React.ListView;var TouchableOpacity=React.TouchableOpacity;var Component=React.Component;var deviceWidth=Dimensions.get('window').width;var deviceHeight=Dimensions.get('window').height;var 
 
 Songs=(function(_Component){_inherits(Songs,_Component);
 function Songs(props){_classCallCheck(this,Songs);
@@ -62310,7 +62310,7 @@ fontSize:10}});exports.default =
 
 Songs;module.exports = exports.default;
 });
-__d('soundreduxNative/src/components/Toolbar.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _actionsPlaylists=require(
+__d('ReactNativeReduxBoiler/src/components/Toolbar.js',function(global, require, module, exports) {  Object.defineProperty(exports,'__esModule',{value:true});var _createClass=(function(){function defineProperties(target,props){for(var i=0;i < props.length;i++) {var descriptor=props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if('value' in descriptor)descriptor.writable = true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};})();var _get=function get(object,property,receiver){if(object === null)object = Function.prototype;var desc=Object.getOwnPropertyDescriptor(object,property);if(desc === undefined){var parent=Object.getPrototypeOf(object);if(parent === null){return undefined;}else {return get(parent,property,receiver);}}else if('value' in desc){return desc.value;}else {var getter=desc.get;if(getter === undefined){return undefined;}return getter.call(receiver);}};function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError('Cannot call a class as a function');}}function _inherits(subClass,superClass){if(typeof superClass !== 'function' && superClass !== null){throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__ = superClass;}var _actionsPlaylists=require(
 
 
 
@@ -62320,8 +62320,8 @@ __d('soundreduxNative/src/components/Toolbar.js',function(global, require, modul
 
 
 
-'soundreduxNative/src/actions/playlists.js');var _constantsSongConstants=require(
-'soundreduxNative/src/constants/SongConstants.js');var React=require('react-native/Libraries/react-native/react-native.js');var StyleSheet=React.StyleSheet;var View=React.View;var Text=React.Text;var Dimensions=React.Dimensions;var ScrollView=React.ScrollView;var TouchableOpacity=React.TouchableOpacity;
+'ReactNativeReduxBoiler/src/actions/playlists.js');var _constantsSongConstants=require(
+'ReactNativeReduxBoiler/src/constants/SongConstants.js');var React=require('react-native/Libraries/react-native/react-native.js');var StyleSheet=React.StyleSheet;var View=React.View;var Text=React.Text;var Dimensions=React.Dimensions;var ScrollView=React.ScrollView;var TouchableOpacity=React.TouchableOpacity;
 var deviceWidth=Dimensions.get('window').width;var 
 
 Toolbar=(function(_React$Component){_inherits(Toolbar,_React$Component);
@@ -62386,7 +62386,7 @@ color:'#adadad'}});exports.default =
 
 Toolbar;module.exports = exports.default;
 });
-__d('soundreduxNative/assets/search100.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/fraserxu/code/opensource/soundreduxNative/assets","httpServerLocation":"/assets/assets","width":96,"height":96,"scales":[1],"files":["/Users/fraserxu/code/opensource/soundreduxNative/assets/search100.png"],"hash":"3a599d209d7876578789fbe59bc8a2e8","name":"search100","type":"png"});
+__d('ReactNativeReduxBoiler/assets/search100.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/fraserxu/code/opensource/ReactNativeReduxBoiler/assets","httpServerLocation":"/assets/assets","width":96,"height":96,"scales":[1],"files":["/Users/fraserxu/code/opensource/ReactNativeReduxBoiler/assets/search100.png"],"hash":"3a599d209d7876578789fbe59bc8a2e8","name":"search100","type":"png"});
 });
-;require("soundreduxNative/index.android.js");
+;require("ReactNativeReduxBoiler/index.android.js");
 //@ sourceMappingURL=/index.android.map?platform=android

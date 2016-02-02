@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.soundreduxnative">
+    package="com.reactnativereduxboiler">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
